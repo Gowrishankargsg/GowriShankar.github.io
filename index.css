@@ -183,6 +183,23 @@
     height: 30vh;
   
 }
+@media  screen and (max-width:400px){
+.row
+{
+    display: flex;
+    flex-direction: column;
+}
+#me 
+{
+    width: fit-content;
+}
+.nav{
+
+/* width: fit-content; */
+}
+
+}
+
 
 
 
@@ -297,6 +314,7 @@
 {
    margin: 20px 0px; 
    height: fit-content;
+    width: 65%;
     
 }
              
